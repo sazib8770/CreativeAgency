@@ -1,0 +1,115 @@
+/* extra Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575px) {
+  html {
+    font-size: 45%;
+  }
+  .navbar-toggler {
+    border-color: rgba(0, 224, 208, 1);
+  }
+  .offcanvas-body {
+    background: #312c51b3;
+  }
+  .common_heading p::before,
+  .slider_content h1::before {
+    top: 9rem;
+  }
+  .bx-wrapper .bx-pager,
+  .bx-wrapper .bx-controls-auto {
+    bottom: 7rem;
+  }
+  .bx-viewport {
+    height: 610px !important;
+  }
+  .story_right {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .common_heading p::before {
+    top: 4rem;
+  }
+  .footer_middle,
+  .client_side,
+  .expert_item {
+    margin-top: 4rem;
+  }
+  .team_sec_under p {
+    margin-top: 2rem;
+  }
+  .work_item_box {
+    text-align: center;
+  }
+  .news_part {
+    text-align: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar-toggler-icon i.fas {
+    padding-top: 0.2rem;
+  }
+  .navbar-toggler {
+    border-color: rgba(0, 224, 208, 1);
+  }
+  .offcanvas-body {
+    background: #312c51b3;
+  }
+  .story_right {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .footer_middle,
+  .client_side,
+  .expert_item {
+    padding: 0rem;
+    margin-top: 4rem;
+  }
+  .team_sec_under p {
+    margin-top: 2rem;
+  }
+  .work_item_box {
+    text-align: center;
+  }
+  .news_part {
+    text-align: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  .navbar-toggler-icon i.fas {
+    padding-top: 0.2rem;
+  }
+  .navbar-toggler {
+    border-color: rgba(0, 224, 208, 1);
+  }
+  .offcanvas-body {
+    background: #312c51b3;
+  }
+
+  .bx-wrapper .bx-pager,
+  .bx-wrapper .bx-controls-auto {
+    bottom: 9rem;
+  }
+  .bx-viewport {
+    height: 615px !important;
+  }
+  .team_sec_under {
+    margin-top: 4rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+/* 
+ XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
