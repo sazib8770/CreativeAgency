@@ -13,7 +13,7 @@
     top: 9rem;
   }
   .slider_content h1::before {
-    top: 9rem;
+    width: 0;
   }
   .bx-wrapper .bx-pager,
   .bx-wrapper .bx-controls-auto {
